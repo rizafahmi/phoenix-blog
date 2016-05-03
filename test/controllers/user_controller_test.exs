@@ -64,4 +64,5 @@ defmodule Blog.UserControllerTest do
     assert redirected_to(conn) == user_path(conn, :index)
     refute Repo.get(User, user.id)
   end
+
 end
