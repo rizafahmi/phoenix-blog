@@ -56,3 +56,6 @@ LOG:  unexpected EOF on client connection with an open transaction
 ERROR:  database "blog_test" already exists
 STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
 LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
