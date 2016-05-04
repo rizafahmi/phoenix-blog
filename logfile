@@ -1,0 +1,58 @@
+LOG:  database system was interrupted; last known up at 2016-05-01 11:44:04 SGT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/1A45320
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction
+ERROR:  database "blog_test" already exists
+STATEMENT:  CREATE DATABASE "blog_test" ENCODING='UTF8'
+LOG:  unexpected EOF on client connection with an open transaction

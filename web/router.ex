@@ -18,6 +18,7 @@ defmodule Blog.Router do
 
     resources "/posts", PostController
     resources "/users", UserController
+    resources "/sessions", SessionController, only: [:new, :create]
     get "/", PageController, :index
   end
 
