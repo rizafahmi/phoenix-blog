@@ -33,4 +33,11 @@ defmodule Blog.SessionController do
       |> redirect(to: page_path(conn, :index))
     end
   end
+
+  def delete(conn, _params) do
+    conn
+    |> delete_session(:current_user)
+    |> put_flash(:info, "Signed out successfully!")
+    |> redirect(to: page_path(conn, :index))
+  end
 end

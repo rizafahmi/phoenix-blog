@@ -7,7 +7,6 @@ defmodule Blog.UserTest do
   @invalid_attrs %{}
 
   test "changeset with valid attributes" do
-    IO.inspect @valid_attrs
     changeset = User.changeset(%User{}, @valid_attrs)
     assert changeset.valid?
   end
