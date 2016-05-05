@@ -5,6 +5,8 @@ defmodule Blog.Post do
     field :title, :string
     field :body, :string
 
+    belongs_to :user, Blog.User
+
     timestamps
   end
 
