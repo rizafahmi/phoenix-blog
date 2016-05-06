@@ -7,6 +7,8 @@ defmodule Blog.User do
     field :email, :string
     field :password_digest, :string
 
+    has_many :posts, Blog.Post
+
     timestamps
 
     # Virtual Fields
