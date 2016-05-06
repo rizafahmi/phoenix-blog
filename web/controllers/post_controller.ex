@@ -4,8 +4,8 @@ defmodule Blog.PostController do
   alias Blog.Post
 
   plug :scrub_params, "post" when action in [:create, :update]
-
   plug :assign_user
+  plug :authorize_user when action in [:new, :create, :update, :delete]
 
   def index(conn, _params) do
     posts = Repo.all(assoc(conn.assigns[:user], :posts))
@@ -90,5 +90,17 @@ defmodule Blog.PostController do
     |> put_flash(:error, "Invalid user!")
     |> redirect(to: page_path(conn, :index))
     |> halt
+  end
+
+  defp authorize_user(conn, _opts) do
+    user = get_session(conn, :current_user)
+    if user && Integer.to_string(user.id) == conn.params["user_id"] do
+      conn
+    else
+      conn
+      |> put_flash(:error, "You are not authorized to modify that post!")
+      |> redirect(to: page_path(conn, :index))
+      |> halt()
+    end
   end
 end
